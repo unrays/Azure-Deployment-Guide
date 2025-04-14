@@ -20,9 +20,9 @@ Pour établir une connexion sécurisée avec le serveur Azure, il est essentiel 
 
   ```ssh
   Host tp2
-     HostName 4.248.185.45
-     User ferikessu
-     IdentityFile "C:\Users\etudiant\.ssh\FerikessuServer_key.pem"
+     HostName {adresse IP}
+     User {username}
+     IdentityFile {Emplacement de la clé}
   ```
 
 ### 1.2. Connexion au serveur
