@@ -19,7 +19,7 @@ Pour établir une connexion sécurisée avec le serveur Azure, il est essentiel 
   Ajoutez les lignes suivantes pour lier votre clé à l’adresse IP publique du serveur Azure :
 
   ```ssh
-  Host tp2
+  Host {alias ssh}
      HostName {adresse IP}
      User {username}
      IdentityFile {Emplacement de la clé}
@@ -30,12 +30,12 @@ Pour établir une connexion sécurisée avec le serveur Azure, il est essentiel 
 Pour vous connecter via SSH, lancez simplement :
 
 ```bash
-ssh tp2
+ssh {alias ssh}
 ```
 
 *Sortie attendue :*
 ```bash
-ferikessu@FerikessuServer:~$
+{username}@{servername}:~$
 ```
 
 ---
