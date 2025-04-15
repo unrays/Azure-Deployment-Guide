@@ -608,6 +608,9 @@ Host {nom de l'utilisateur}_tp2
    ```
 
 > Testez ensuite la connexion SSH avec l’utilisateur concerné.
+
+Version définitive mise en page au format Markdown par ChatGPT le dimanche 13 avril 2025.
+
 ---
 
 ## License
@@ -619,4 +622,3 @@ You are free to use, modify, and distribute this work, provided that the license
 _All rights reserved unless otherwise stated in the license file._
 
 ---
-Version définitive mise en page au format Markdown par ChatGPT le dimanche 13 avril 2025.
